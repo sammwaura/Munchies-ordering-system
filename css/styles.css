@@ -1,0 +1,32 @@
+.wrapper{
+  background-color: pink;
+  display: block;
+}
+
+.header{
+height:500px;
+background-color: red;
+/*background-image: image();*/
+
+}
+
+.content{
+width:100px;
+background-color: white;
+
+}
+
+#image{
+  width:400px;
+  height:300px;
+  margin: auto;
+  
+}
+
+#topimg{
+
+}
+
+#bottomimg{
+
+}
