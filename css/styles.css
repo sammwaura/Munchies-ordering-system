@@ -1,0 +1,63 @@
+body {
+  background-color: orange;
+}
+
+
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/fries.jpg)
+}
+
+
+
+
+
+#img1 {
+  animation-name: slidein, pulse, flash, tada;
+  animation-duration: 6s, 3s, 5s, 2s;
+  animation-iteration-count: 1, 2, 3, 4;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+
+}
+
+@keyframes {
+  from {
+    margin-top: 50%;
+    margin-right: 50%;
+    width: 80%;
+  }
+  to {
+    margin-bottom: 50%;
+    margin-left: 50%;
+    width: 90%;
+  }
+}
+
+#h2 {
+  animation-name: bounce, shake, flip;
+  animation-duration: 5s, 6s, 7s;
+  animation-iteration-count: 2, 3, 4;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+@keyframes  bounce, shake, flip{
+  from {
+    margin-top: 50%;
+    margin-right: 50%;
+    width: 90%;
+  }
+  to {
+    margin-bottom: 50%;
+    margin-left: 50%;
+    width: 90%;
+  }
+}
