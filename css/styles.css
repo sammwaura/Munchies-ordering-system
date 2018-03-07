@@ -1,0 +1,179 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ display: none'
+ }
+
+
+.header {
+  height:500px;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/landing.jpg)
+}
+
+#imgheader {
+  animation-name: slidein, pulse, flash, tada;
+  animation-duration: 6s, 3s, 5s, 2s;
+  animation-iteration-count: 1, 2, 3, 4;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+@keyframes  slidein, pulse, flash, tada{
+  from {
+    margin-top: 50%;
+    margin-right: 50%;
+    width: 80%;
+  }
+  to {
+    margin-bottom: 50%;
+    margin-left: 50%;
+    width: 90%;
+  }
+}
+
+
+.content{
+   width:100%;
+   background-color: white;
+
+ }
+
+ .content-wrapper{
+   width: 70%;
+   height:900px;
+   /*background-color: white;*/
+   margin: auto;
+   margin-top: 30px;
+   background-size: cover;/
+   /*background-image: url(../img/background.jpg);*/
+   /*color: orange;*/
+ }
+
+ .content-items{
+   background-color: transparent;
+   float: left;
+   height:40%;
+   width:50%;
+ }
+  #firstimgwrapper, #secondimgwrapper{
+  position: absolute;
+  width: 350px;
+  height:250px;
+  margin:25px;
+  /*background-color: blue;*/
+}
+
+
+ #firstimgcard{
+   width: 400px;
+height:300px;
+background-color: white;
+margin:auto;
+margin-top:20px;
+position:absolute;
+box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
+ }
+
+ #top-img{
+  width:100%;
+   height:50%;
+}
+
+#imgtop, #imgbottom{
+  width: 30%;
+  height:20%;
+}
+
+#bottom-img{
+width:100%;
+ height:50%;
+}
+
+#text-container{
+  width: 70%;
+padding-left:5%;
+}
+
+#text-container2{
+  width: 70%;
+padding-right:5%;
+text-align: right;
+float:right;
+margin-left: 20%;
+}
+
+#secondimgcard{
+  width: 400px;
+  height:300px;
+  background-color: white;
+  margin:auto;
+  margin-top:30px;
+  position: absolute;
+box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
+}
+
+#TOPimg{
+float: left;
+width: 50%;
+height: 100%;
+}
+
+#BOTTOMimg{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#IMGtop, #IMGbottom{
+  width: 50%;
+  height:50%;
+}
+
+.second-content{
+  width:100%;
+  background-color: white;
+
+}
+
+.second-wrapper{
+  width: 80%;
+height: 80%;
+margin:auto;
+margin-top: 20px;
+background-color: white;
+position: relative;
+background-image: url(../img/content.jpg);
+background-size: cover;
+color:white;
+}
+
+#h2{
+  animation-name: bounce, shake,flip;
+  animation-duration: 5s, 6s, 7s;
+  animation-iteration-count: 2, 3, 4;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+@keyframes  bounce, shake, flip{
+  from {
+    margin-top: 50%;
+    margin-right: 50%;
+    width: 90%;
+  }
+  to {
+    margin-bottom: 50%;
+    margin-left: 50%;
+    width: 90%;
+  }
+}
